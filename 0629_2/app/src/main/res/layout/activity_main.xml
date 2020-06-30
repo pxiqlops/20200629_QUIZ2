@@ -21,7 +21,17 @@
         android:id="@+id/questionImage"
         android:layout_width="170dp"
         android:layout_height="170dp"
-        android:src="@drawable/apple"/>
+        android:src="@drawable/animal_mark01_buta"/>
+
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="全問正解中"
+        android:textColor="#D50B0B"
+        android:textSize="16sp"
+        android:visibility="invisible" />
 
     <Button
         android:id="@+id/answerBtn1"
@@ -54,5 +64,21 @@
         android:text="answer4"
         android:layout_marginTop="6dp"
         android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answerBtn5"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"
+        android:text="answer5" />
+
+    <Button
+        android:id="@+id/answerBtn6"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"
+        android:text="answer6" />
 
 </LinearLayout>
